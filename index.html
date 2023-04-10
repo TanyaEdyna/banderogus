@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banderogus</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section class="main_page">
+      <div class="container">
+        <div class="main_left-side">
+          <img class="main-logo" src="./img/head_logo.svg" alt="logo" />
+          <div class="main_wrap">
+            <div class="main_text-container">
+              <h2 class="main_subtitle">Доброго вечора, ми з України</h2>
+              <h1 class="main_title">Бандерогусь</h1>
+              <p class="main_description">
+                Спеціальний бойовий гусак із біолабораторій України. Пишаюся
+                своїми подвигами, бороню Батьківщину та підтримую позитивний дух
+                народу. Слава Україні!
+              </p>
+              <button class="main_page-btn" type="button" id="go-to-form-btn">
+                Запустити гуся
+              </button>
+            </div>
+          </div>
+        </div>
+        <img class="main_page-img" src="./img/gus_main.svg" alt="banderogus" />
+      </div>
+    </section>
+    <section class="facts container">
+      <img class="emblem" src="./img/tryzub.svg" alt="emblem of Ukraine" />
+      <h3 class="facts_title">Цікаві факти про бандерогусей</h3>
+      <p class="facts_description">
+        Зазвичай бандерогуси — виключно мирні птахи. Але у разі небезпеки можуть
+        атакувати ворога системою надпотужного озброєння. Також нищать
+        психологічно, активуючи високочастотне шипіння та розмахування крилами
+      </p>
+
+      <ul class="facts_list">
+        <li class="facts_list-item">
+          <img
+            class="facts_img"
+            src="./img/gus1.svg"
+            alt="banderogus with a companion"
+          />
+          <h3 class="facts_list-title">Система навігації</h3>
+          <p class="facts_list-description">
+            Супутниковий GPS та ехолокатори розпізнають ворожу техніку навіть на
+            етапі збірки
+          </p>
+        </li>
+        <li class="facts_list-item">
+          <img
+            class="facts_img"
+            src="./img/gus2.svg"
+            alt="banderogus with a binoculars"
+          />
+          <h3 class="facts_list-title">Очі-тепловізори</h3>
+          <p class="facts_list-description">
+            Допомагають виявити характер сигнатури об’єктів та значно підвищують
+            точність удару
+          </p>
+        </li>
+        <li class="facts_list-item">
+          <img class="facts_img" src="./img/gus3.svg" alt="banderogus flies" />
+          <h3 class="facts_list-title">Байракрила</h3>
+          <p class="facts_list-description">
+            Можуть нести 2-4 керовані ракети, що вражають ціль на відстані
+            «ніхріна собі» кілометрів
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section class="form_user">
+      <form action="#" class="form_container" id="form" data-netlify="true">
+        <img class="emblem" src="./img/tryzub.svg" alt="tryzub" />
+        <h3 class="form_title">Поділися, будь ласка, поштою</h3>
+        <p class="form_description">та запиши гуся до бандерозагону</p>
+        <div class="for_wrap">
+          <div class="form_field">
+            <label for="user-name" class="form_field-label">Ім'я</label>
+            <input
+              type="text"
+              class="form_field-input"
+              name="Ім'я"
+              id="user-name"
+              required
+            />
+          </div>
+          <div class="form_field-email">
+            <label for="user-email" class="form_field-label">Email</label>
+            <input
+              type="email"
+              class="form_field-input"
+              name="Email"
+              id="user-email"
+              required
+            />
+          </div>
+        </div>
+        <button class="main_page-btn" id="launch-btn">Запустити гуся</button>
+      </form>
+    </section>
+    <script src="./js/form.js"></script>
+  </body>
+</html>

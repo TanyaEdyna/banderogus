@@ -1,0 +1,226 @@
+html,  body {
+    margin: 0;
+    height: 100%;
+    box-sizing: border-boxs;
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+button {
+    border: none;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+}
+.main_page {
+    display: flex;
+    background: linear-gradient(277.74deg, #A5DEFF 5.98%, #FCFEFE 99.82%);
+}
+.main-logo {
+    margin: 32px 0 60px 0;
+}
+
+.main_text-container {
+    background: #FFFFFF;
+    border-radius: 40px;
+    padding: 60px 42px 60px 42px;
+}
+.main_subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1B1D1F;
+    margin-bottom: 60px;
+
+}
+.main_title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.12;
+    color: #1B1D1F;
+    margin-bottom: 32px;
+
+}
+.main_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 38px;
+}
+.main_page-btn {
+    width: 172px;
+    height: 48px;
+    background: #FF6B05;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.main_page-img {
+    width: 668px;
+    height: 720px;
+}
+/* --- facts about banderogus --- */
+.facts {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 30px 0 108px 0;
+    
+}
+.emblem {
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+    height: 50px;
+    margin-bottom: 44px;
+
+}
+.facts_title {
+    text-align: center;
+    margin: 0 auto;
+    width: 814px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.12;
+    color: #1B1D1F; 
+    margin-bottom: 32px;
+}
+.facts_description {
+    text-align: center;
+    margin: 0 auto;
+    width: 712px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1B1D1F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 24px;
+}
+.facts_list {
+    display: flex;
+    flex-direction: row;
+    row-gap: 24px;
+    justify-content: space-between;
+    height: auto;
+    padding: 0;
+    margin: 0;
+   
+}
+.facts_list-item {
+    width: 374px;
+}
+.facts_img {
+    
+    margin: 0;
+    margin-bottom: 8px;
+}
+.facts_list-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1;
+    color: #1B1D1F;
+    margin-bottom: 32px;
+}
+.facts_list-description {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1B1D1F;
+}
+/* --- user email --- */
+.form_user {
+    padding: 84px 0;
+    background: linear-gradient(277.74deg, #A5DEFF 5.98%, #FCFEFE 99.82%);
+}
+.form_container {
+    background: #FFFFFF;
+    border-radius: 40px;
+    padding: 32px 46px 54px 46px;
+    width: 574px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.form_title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1;
+    color: #1B1D1F;
+    margin-bottom: 24px;
+
+}
+.form_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1B1D1F;
+    margin-bottom: 24px;
+}
+.form_field {
+    width: 556px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 24px;
+}
+.form_field-email {
+    width: 556px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+.form_field-label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1B1D1F;
+    margin-bottom: 8px;
+
+}
+.form_field-input {
+    width: 100%;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #494600;
+    border-radius: 8px;
+    padding: 0;
+    padding: 0 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1B1D1F;
+    outline: none;
+}
+.for_wrap {
+    margin-bottom: 42px;
+}
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
